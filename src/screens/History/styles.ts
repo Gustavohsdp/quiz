@@ -8,6 +8,22 @@ export const styles = StyleSheet.create({
     backgroundColor: THEME.COLORS.GREY_800,
   },
   history: {
+    flexGrow: 1,
     padding: 32,
-  }
+  },
+  swipeableContainer: {
+    width: '100%',
+    backgroundColor: THEME.COLORS.DANGER_LIGHT,
+    borderRadius: 6,
+    height: 90,
+    marginBottom: 12
+  },
+  swipeableRemove: {
+    width: 90,
+    height: 90,
+    borderRadius: 6,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
 });
